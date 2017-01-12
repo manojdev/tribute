@@ -1,16 +1,37 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .center {
     width: 80%;
-    height: 100%;
-    background-color: #e0dcdc;
-    margin: auto;
+    background-color: #eee;
+    margin: 0 auto;
+}
+
+.header {
     font-family: 'Cinzel', serif;
 }
 
 h1 {
     text-align: center;
+    padding-top: 20px;
 }
 
 .banner {
     width: 100%;
     height: 600px;
+}
+
+q {
+    display: block;
+    margin: 5px;
+}
+
+.section {
+    padding: 10px;
+}
+
+p {
+    padding: 5px 20px;
 }
